@@ -1,1 +1,1 @@
-# [rsschool-cv](https://github.com/LiaYai/rsschool-cv/blob/gh-pages/cv.md)
+# [rsschool-cv](https://liayai.github.io/rsschool-cv/cv)
