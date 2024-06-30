@@ -25,16 +25,16 @@ I want to continue my education, obtaining a sought-after specialty. I have been
 
 _Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case_
 
-```
-**let** countBits = function(n) {
-  **const** str = n.toString(2);
-  **let** count = 0;
-  **for** (**let** i = 0; i < str.length; i++) {
-    **if** (str[i] === '1') {
+```js
+let countBits = function(n) {
+  const str = n.toString(2);
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '1') {
       count += 1;
     };
   };
-  **return** count;
+  return count;
 };
 ```
 
@@ -43,11 +43,9 @@ _Example: The binary representation of 1234 is 10011010010, so the function shou
 Faculty of Mathematics, Mechanics and Computer Sciences
 
 - **Courses:** 
-  -Yandex Practicum "Web-developer"(in progress)
-
-  -RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
-
-  -JavaScript Manual on learnjavascript.ru (in progress)
+    - Yandex Practicum "Web-developer"(in progress)
+    - RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
+    - JavaScript Manual on learnjavascript.ru (in progress)
 
 ## Experience:
 One of my project on Yandex Practicum: [Project 'Zakrivayuschiy teg'](https://github.com/LiaYai/zakrivayuschiy-teg-f)
