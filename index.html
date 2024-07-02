@@ -3,9 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
   <title>CV</title>
 </head>
-<body>
-  CV
+<body class="body">
+  <div>
+    <section>
+      <img src="my_foto.jpg" alt="my foto">
+    </section>
+    <section>
+      <h1>Alisa Vinogradova</h1>
+      <h2>Junior Frontend Developer</h2>
+    </section>
+    <section>
+      <h2>Contacts</h2>
+      <ul>
+        <li>Phone: +7 918 244 18 77</li>
+        <li>E-mail: alicegrapes@gmail</li>
+        <li>Telegram: @liayalyssa</li>
+        <li>GitHub: <a href="https://github.com/LiaYai">LiaYai</a></li>
+        <li>Discord: @LiaYai</li>
+      </ul>
+    </section>
+    <section>
+      <h2>About me</h2>
+      <p>I want to continue my education, obtaining a sought-after specialty.I have been interested in programming since school and continued my studies at the university. Previously, I worked as a computer graphics teacher, so I have experience in graphic editors. Currently I work as a marketing assistant, mainly making changes to client sites through the admin account.  Frontend development kind of combines my skills in all these areas. I really like that the result of the work can be seen immediately.</p>
+    </section>
+  </div>
+  <div>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS</li>
+        <li>JavaScript Basics</li>
+        <li>Git, GitHub</li>
+        <li>VS Code</li>
+        <li>Figma, Adobe Photoshop, Illustrator, CorelDRAW</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Code example</h2>
+      <div>
+        <p>
+          Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+        </p> 
+        <p>Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case_</p>
+        <code class="code">
+          let countBits = function(n) {
+            const str = n.toString(2);
+            let count = 0;
+            for (let i = 0; i < str.length; i++) {
+              if (str[i] === '1') {
+                count += 1;
+              };
+            };
+            return count;
+          };
+        </code>
+      </div>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>High school. Bachelor, Southern Federal University, Rostov-on-Don. Faculty of Mathematics, Mechanics and Computer Sciences</li>
+        <li>Courses:
+          <ul>
+            <li>Yandex Practicum "Web-developer"(in progress)</li>
+            <li>RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)</li>
+            <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Experience</h2>
+      <p>One of my project on Yandex Practicum: <a href="https://github.com/LiaYai/zakrivayuschiy-teg-f">Project 'Zakrivayuschiy teg'</a></p>
+    </section>
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>Russian - Native</li>
+        <li>English - A1</li>
+      </ul>
+    </section>
+  </div>
 </body>
 </html>
